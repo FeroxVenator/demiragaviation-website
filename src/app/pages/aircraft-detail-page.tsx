@@ -11,10 +11,10 @@ import {
   Award,
 } from "lucide-react";
 import { Button } from "../components/ui/button";
-import citationXImage from "figma:asset/a69aeabd9c395ff20e5a07888aa47e702e52741a.png";
-import gulfstreamG650Image from "figma:asset/47d34e0761766bb1f18b278431cd1f1d9e6e04e5.png";
-import global6000Image from "figma:asset/47abde9fae8d116149a0dddc8a8744b8318b3012.png";
-import phenom300Image from "figma:asset/75417531ab1e57901efa5b9d7076ca88872154c8.png";
+import citationXImage from "asset/a69aeabd9c395ff20e5a07888aa47e702e52741a.png";
+import gulfstreamG650Image from "asset/47d34e0761766bb1f18b278431cd1f1d9e6e04e5.png";
+import global6000Image from "asset/47abde9fae8d116149a0dddc8a8744b8318b3012.png";
+import phenom300Image from "asset/75417531ab1e57901efa5b9d7076ca88872154c8.png";
 
 export function AircraftDetailPage() {
   const { id } = useParams();
