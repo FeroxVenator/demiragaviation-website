@@ -12,11 +12,11 @@ import {
   MapPin,
 } from "lucide-react";
 import { Button } from "../components/ui/button";
-import brokerageHeroImage from "figma:asset/d45ce8bb33909d430f4ebb82e7e2f71e8a143c8a.png";
-import citationXImage from "figma:asset/a69aeabd9c395ff20e5a07888aa47e702e52741a.png";
-import gulfstreamG650Image from "figma:asset/47d34e0761766bb1f18b278431cd1f1d9e6e04e5.png";
-import global6000Image from "figma:asset/47abde9fae8d116149a0dddc8a8744b8318b3012.png";
-import phenom300Image from "figma:asset/75417531ab1e57901efa5b9d7076ca88872154c8.png";
+import brokerageHeroImage from "src/asset/d45ce8bb33909d430f4ebb82e7e2f71e8a143c8a.png";
+import citationXImage from "src/asset/a69aeabd9c395ff20e5a07888aa47e702e52741a.png";
+import gulfstreamG650Image from "src/asset/47d34e0761766bb1f18b278431cd1f1d9e6e04e5.png";
+import global6000Image from "src/asset/47abde9fae8d116149a0dddc8a8744b8318b3012.png";
+import phenom300Image from "src/asset/75417531ab1e57901efa5b9d7076ca88872154c8.png";
 
 export function BrokeragePage() {
   useEffect(() => {
