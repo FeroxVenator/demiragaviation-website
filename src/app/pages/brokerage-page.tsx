@@ -12,17 +12,21 @@ import {
   MapPin,
 } from "lucide-react";
 import { Button } from "../components/ui/button";
-import brokerageHeroImage from "figma:asset/d45ce8bb33909d430f4ebb82e7e2f71e8a143c8a.png";
-import citationXImage from "figma:asset/a69aeabd9c395ff20e5a07888aa47e702e52741a.png";
-import gulfstreamG650Image from "figma:asset/47d34e0761766bb1f18b278431cd1f1d9e6e04e5.png";
-import global6000Image from "figma:asset/47abde9fae8d116149a0dddc8a8744b8318b3012.png";
-import phenom300Image from "figma:asset/75417531ab1e57901efa5b9d7076ca88872154c8.png";
+
+// Aircraft images from Unsplash
+const brokerageHeroImage = "https://images.unsplash.com/photo-1540962351504-03099e0a754b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920";
+const citationXImage = "https://images.unsplash.com/photo-1525077484157-632d43ba17f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080";
+const gulfstreamG650Image = "https://images.unsplash.com/photo-1768346564210-f382cdf18375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080";
+const global6000Image = "https://images.unsplash.com/photo-1732973599973-aa40c754a5d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080";
+const phenom300Image = "https://images.unsplash.com/photo-1660968601173-25e63b02bd71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080";
 
 export function BrokeragePage() {
   useEffect(() => {
     document.title = "Brokerage - Demirag Aviation Website";
   }, []);
 
+  const heroRef = useRef(null);
+  const isHeroInView = useInView(heroRef, { once: true });
   const processRef = useRef(null);
   const isProcessInView = useInView(processRef, { once: true });
 
